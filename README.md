@@ -13,6 +13,9 @@ RecipeApp is a simple console application that allows you to manage and categori
 ## Prerequisites
 - .NET SDK 5.0 or later
 
+## Video Link
+https://byui.instructure.com/accounts/1/external_tools/12987?launch_type=global_navigation
+
 ## Usage
 The `RecipeApp` application provides a `RecipeManager` class to manage recipes and a `Recipe` class to represent a recipe with a name and category. Below is an example of how to use the application:
 
@@ -41,4 +44,6 @@ foreach (var recipe in recipesByCategory)
 {
     Console.WriteLine($"- {recipe.Name}");
 }
+
+
 
